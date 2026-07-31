@@ -1,0 +1,17 @@
+version: 2
+updates:
+  # Gradle
+  - package-ecosystem: "gradle"
+    directory: "/android"
+    schedule:
+      interval: "weekly"
+  # GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+  # Dart / pub
+  - package-ecosystem: "pub"
+    directory: "/flutter"
+    schedule:
+      interval: "weekly"
