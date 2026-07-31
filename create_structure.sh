@@ -29,3 +29,6 @@ touch .github/workflows/build.yml
 touch README.md
 touch requirements.txt
 touch LICENSE
+git add .
+git commit -m "Create General AI Agent architecture"
+git push
