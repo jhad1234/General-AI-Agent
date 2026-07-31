@@ -1,11 +1,28 @@
-<div align="center">
+# General AI Agent / نظام وكيل ذكاء اصطناعي عام
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Arabic: نظام وكيل ذكاء اصطناعي عام متكامل لإدارة المهام والأتمتة الذكية.
 
-  <h1>Built with AI Studio</h2>
+English: An integrated general AI agent system for task management and intelligent automation.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Overview
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+This repository contains a multi-platform AI agent implementation with components for Android, Flutter UI, and a core agent implementation (planner, memory, tools, executor).
 
-</div>
+Top-level layout
+- android/ — Android app and Gradle build files
+- flutter/ — Flutter app (Dart) with pubspec and tests
+- agent-core/ — Core agent logic (planner, memory, tools, executor)
+- .github/workflows/ — CI workflows for Android, Flutter and CI
+- docs/ — Architecture and documentation
+
+## Quick badges (placeholders)
+- CI: [![CI](https://github.com/jhad1234/General-AI-Agent/actions/workflows/ai-agent-ci.yml/badge.svg)](https://github.com/jhad1234/General-AI-Agent/actions)
+
+## Quickstart
+See docs/QUICKSTART.md for concise local development steps for agent-core, Flutter, and Android.
+
+## Contributing
+Please read CONTRIBUTING.md for contribution guidelines, code style, and testing expectations.
+
+## License
+This project is licensed under the MIT License — see LICENSE for details.

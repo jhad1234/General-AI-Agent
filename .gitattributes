@@ -1,0 +1,4 @@
+# Force language detection for main code areas
+flutter/* linguist-language=Dart
+android/* linguist-language=Kotlin
+agent-core/* linguist-language=Python

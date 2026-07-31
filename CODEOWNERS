@@ -1,0 +1,15 @@
+# Code owners for critical paths
+# Lines are file pattern followed by owner(s)
+
+# Agent core
+/agent-core/ @jhad1234
+
+# Flutter UI
+/flutter/ @jhad1234
+
+# Android app
+/android/ @jhad1234
+
+# Docs and workflows
+/docs/ @jhad1234
+/.github/workflows/ @jhad1234
